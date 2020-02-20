@@ -52,3 +52,34 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.pagination {
+  font-size: 24px;
+  padding: 8px;
+
+  &__nav-button {
+    background-color: transparent;
+    border: 1px dotted hotpink;
+    border-radius: 8px;
+    color: hotpink;
+    padding: 8px;
+    text-transform: uppercase
+  }
+
+  &__page-button {
+    background-color: transparent;
+    border: 2px solid brown;
+    border-radius: 4px;
+    color: brown;
+    margin: 8px;
+    padding: 8px;
+
+    &.-current {
+      background-color: yellowgreen;
+      border: 2px solid green;
+      color: green;
+      font-weight: bold;
+
+    }
+  }
+}
