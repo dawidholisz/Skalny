@@ -53,6 +53,27 @@ code {
     monospace;
 }
 
+.btn {
+  background-color: lightblue;
+  border: 2px solid blue;
+  border-radius: 8px;
+  color: blue;
+  margin: 8px;
+  padding: 8px;
+  cursor: pointer;
+
+  &.-success {
+    background-color: lightgreen;
+    border-color: green;
+    color: green;
+  }
+
+  &.-danger {
+    background-color: lightcoral;
+    border-color: red;
+    color: red;}
+}
+
 .pagination {
   font-size: 24px;
   padding: 8px;
